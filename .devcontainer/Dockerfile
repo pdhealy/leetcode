@@ -1,9 +1,8 @@
-FROM ubuntu:latest
+FROM python:3.12-slim-bookworm
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
-    python3 \
-    python3-pip \
-    python3-venv \
-    && apt-get clean \
+    ca-certificates \
+    curl \
+    bash \
     && rm -rf /var/lib/apt/lists/*
