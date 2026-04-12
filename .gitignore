@@ -159,3 +159,7 @@ Thumbs.db
 .idea/
 *.swp
 *~
+
+# Custom
+.planning/
+.gemini/
