@@ -1,5 +1,10 @@
 # Contains Duplicate
 
+- **Difficulty:** Easy
+- **Category:** Array, Hash Table
+- **Link:** https://leetcode.com/problems/contains-duplicate/
+- **Tutorial:** https://youtu.be/3OamzN90kPg?si=umGZegEzdvOa--eC
+
 Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 
 **Example 1:**

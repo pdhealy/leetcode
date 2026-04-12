@@ -1,15 +1,9 @@
 # 125. Valid Palindrome
 
-## Difficulty: Easy
-## Category: String, Two Pointers (Opposite Ends)
-## Link: https://leetcode.com/problems/valid-palindrome
-## Tutorial: https://www.youtube.com/watch?v=jJXJ16kPFWg
 ## Note: Two Pointers (Opposite Ends) are used to compare characters from both ends of the string, moving towards the center. This approach is efficient for checking palindromes.
 
-## Solution:
-
-
 from solution import Solution
+
 if __name__ == "__main__":
 
     solution = Solution()

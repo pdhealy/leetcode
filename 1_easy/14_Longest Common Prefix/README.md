@@ -1,5 +1,10 @@
 # Longest Common Prefix
 
+- **Difficulty:** Easy
+- **Category:** String
+- **Link:** https://leetcode.com/problems/longest-common-prefix/
+- **Tutorial:** https://www.youtube.com/watch?v=0sWShKIJoo4
+
 Write a function to find the longest common prefix string amongst an array of strings.
 
 If there is no common prefix, return an empty string `""`.

@@ -1,10 +1,5 @@
 # 1: Two Sum
 
-## Difficulty: Easy
-## Category: Array, Hash Table
-## Link: https://leetcode.com/problems/two-sum/
-## Tutorial: https://www.youtube.com/watch?v=KLlXCFG5TnA
-
 from solution import Solution
 
 if __name__ == "__main__":
@@ -18,7 +13,7 @@ if __name__ == "__main__":
     # Example 2:
     # nums = [3, 2, 4]
     # target = 6
-    
+
     result = solution.twoSum(nums, target)
     print(f"Indices of the two numbers that add up to {target} are: {result}")
 

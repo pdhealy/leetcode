@@ -24,6 +24,3 @@ class Solution:
             right_ptr += 1
 
         return maxProfit
-
-## Test cases:
-

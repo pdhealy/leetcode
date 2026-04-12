@@ -22,6 +22,3 @@ class Solution:
             result += strs[0][i]
 
         return result
-
-## Test cases:
-

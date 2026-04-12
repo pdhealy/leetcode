@@ -1,4 +1,9 @@
-# Move Zeroes
+# 283. Move Zeroes
+
+- **Difficulty:** Easy
+- **Category:** Array, Two Pointers, In-Place Array Manipulation
+- **Link:** https://leetcode.com/problems/move-zeroes/
+- **Tutorial:** https://www.youtube.com/watch?v=aayNRwUN3Do
 
 Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
 

@@ -1,4 +1,9 @@
-# Valid Palindrome
+# 125. Valid Palindrome
+
+- **Difficulty:** Easy
+- **Category:** String, Two Pointers (Opposite Ends)
+- **Link:** https://leetcode.com/problems/valid-palindrome
+- **Tutorial:** https://www.youtube.com/watch?v=jJXJ16kPFWg
 
 A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 

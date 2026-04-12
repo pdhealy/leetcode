@@ -1,13 +1,6 @@
 # 217: Contains Duplicate
 
-## Difficulty: Easy
-## Category: Array, Hash Table
-## Link: https://leetcode.com/problems/contains-duplicate/
-## Tutorial: https://youtu.be/3OamzN90kPg?si=umGZegEzdvOa--eC
-
-
 from solution import Solution
-from typing import List
 
 if __name__ == "__main__":
 

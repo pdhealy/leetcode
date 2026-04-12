@@ -1,5 +1,10 @@
 # Remove Element
 
+- **Difficulty:** Easy
+- **Category:** Array, Two Pointers
+- **Link:** https://leetcode.com/problems/remove-element/
+- **Tutorial:** https://youtu.be/Pcd1ii9P9ZI?si=MIRUjFFAQkxwqK2A
+
 Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm). The order of the elements may be changed. Then return *the number of elements in* `nums` *which are not equal to* `val`.
 
 Consider the number of elements in `nums` which are not equal to `val` be `k`, to get accepted, you need to do the following things:

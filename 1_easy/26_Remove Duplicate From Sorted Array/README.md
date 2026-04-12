@@ -1,5 +1,10 @@
 # Remove Duplicates from Sorted Array
 
+- **Difficulty:** Easy
+- **Category:** Array, Two Pointers
+- **Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+- **Tutorial:** https://youtu.be/DEJAZBq0FDA?si=tweeolVOKlasxTCm
+
 Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) such that each unique element appears only **once**. The **relative order** of the elements should be kept the **same**.
 
 Consider the number of *unique elements* in `nums` to be `k​​​​​​​`​​​​​​​. After removing duplicates, return the number of unique elements `k`.

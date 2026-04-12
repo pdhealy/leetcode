@@ -1,5 +1,9 @@
 # Merge Two Sorted Lists
 
+- **Category:** Easy
+- **Link:** https://leetcode.com/problems/merge-two-sorted-lists/
+- **Tutorial:** https://www.youtube.com/watch?v=XIdigk956u0&list=PLot-Xpze53lfQmTEztbgdp8ALEoydvnRQ&index=6&pp=iAQB
+
 You are given the heads of two sorted linked lists `list1` and `list2`.
 
 Merge the two lists into one **sorted** list. The list should be made by splicing together the nodes of the first two lists.

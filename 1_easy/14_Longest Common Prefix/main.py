@@ -1,19 +1,12 @@
 # 14. Longest Common Prefix
 
-## Difficulty: Easy
-## Category: String
-## Link: https://leetcode.com/problems/longest-common-prefix/
-## Tutorial: https://www.youtube.com/watch?v=0sWShKIJoo4
-
 ## Solution:
-
-
 
 from solution import Solution
 from typing import List
 
 if __name__ == "__main__":
-    
+
     solution = Solution()
 
     # Example 1:
