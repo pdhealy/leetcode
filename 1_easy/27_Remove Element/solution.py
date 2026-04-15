@@ -15,6 +15,3 @@ class Solution:
                 k_ptr += 1
         # Return the new length of the array without val elements
         return k_ptr
-
-## Test cases:
-

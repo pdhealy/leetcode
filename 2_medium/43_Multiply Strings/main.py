@@ -1,9 +1,6 @@
 # 43. Multiply Strings
 
-## Difficulty: Medium
-## Category: String, Math
-## Link: https://leetcode.com/problems/multiply-strings
-## Tutorial: https://www.youtube.com/watch?v=1vZswirL8Y8
+
 
 from solution import Solution
 

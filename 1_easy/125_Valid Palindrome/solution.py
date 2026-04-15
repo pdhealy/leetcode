@@ -41,6 +41,3 @@ class Solution:
         return (ord('A') <= ord(char) <= ord('Z') or
                 ord('a') <= ord(char) <= ord('z') or
                 ord('0') <= ord(char) <= ord('9'))
-
-## Test cases:
-
