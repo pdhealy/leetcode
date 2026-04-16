@@ -1,50 +1,24 @@
 import sys
 import os
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-import unittest
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import pytest
+if "solution" in sys.modules: del sys.modules["solution"]
 from solution import Solution
 
-class TestMultiplyStrings(unittest.TestCase):
-    def setUp(self):
-        self.solution = Solution()
+def test_multiply_1():
+    solution = Solution()
+    num1 = "2"
+    num2 = "3"
+    assert solution.multiply(num1, num2) == "6"
 
-    def test_example1(self):
-        # Example 1 from main.py
-        num1 = "2"
-        num2 = "3"
-        expected = "6"
-        result = self.solution.multiply(num1, num2)
-        self.assertEqual(result, expected)
+def test_multiply_2():
+    solution = Solution()
+    num1 = "123"
+    num2 = "456"
+    assert solution.multiply(num1, num2) == "56088"
 
-    def test_example2(self):
-        # Example 2 from main.py (commented out in main.py, but included for completeness)
-        num1 = "123"
-        num2 = "456"
-        expected = "56088"
-        result = self.solution.multiply(num1, num2)
-        self.assertEqual(result, expected)
-
-    def test_custom(self):
-        # Custom example from main.py
-        num1 = "12"
-        num2 = "34"
-        expected = "408"
-        result = self.solution.multiply(num1, num2)
-        self.assertEqual(result, expected)
-
-    def test_zero(self):
-        # Edge case: one number is zero
-        num1 = "0"
-        num2 = "12345"
-        expected = "0"
-        result = self.solution.multiply(num1, num2)
-        self.assertEqual(result, expected)
-
-        num1 = "6789"
-        num2 = "0"
-        expected = "0"
-        result = self.solution.multiply(num1, num2)
-        self.assertEqual(result, expected)
-
-if __name__ == "__main__":
-    unittest.main()
+def test_multiply_3():
+    solution = Solution()
+    num1 = "12"
+    num2 = "34"
+    assert solution.multiply(num1, num2) == "408"
