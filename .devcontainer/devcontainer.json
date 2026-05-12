@@ -8,9 +8,12 @@
   "postCreateCommand": "python3 -m venv /workspace/.venv --clear",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "ms-python.python"
-      ]
+			"extensions": [
+				"ms-python.autopep8",
+				"ms-python.debugpy",
+				"ms-python.python",
+        "ms-python.vscode-python-envs"
+			]
     }
   }
 }

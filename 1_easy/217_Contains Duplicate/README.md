@@ -1,7 +1,7 @@
 # Contains Duplicate
 
 - **Difficulty:** Easy
-- **Category:** Array, Hash Table
+- **Category:** Array, Hash Table, Sorting
 - **Link:** https://leetcode.com/problems/contains-duplicate/
 - **Tutorial:** https://youtu.be/3OamzN90kPg?si=umGZegEzdvOa--eC
 
