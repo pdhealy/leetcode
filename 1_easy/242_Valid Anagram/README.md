@@ -1,7 +1,7 @@
 # 242: Valid Anagram
 
 - **Difficulty:** Easy
-- **Category:** String, Hash Table
+- **Categories:** String, Hash Table
 - **Link:** https://leetcode.com/problems/valid-anagram
 
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.

@@ -1,5 +1,3 @@
-# 141. Linked List Cycle
-
 from typing import Optional
 
 # Definition for singly-linked list.
