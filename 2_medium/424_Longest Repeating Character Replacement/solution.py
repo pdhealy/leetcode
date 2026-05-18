@@ -7,8 +7,7 @@ class Solution:
         for r in range(len(s)):
             count[s[r]] = 1 + count.get(s[r], 0)
 
-            # check if we can replace the characters in the current window to make all characters the same
-            # `(r - l + 1) - max(count.values()) > k` means that we need to replace more than `k` characters to make all characters the same in the current window, so we need to shrink the window from the left
+            # check if `k` can fit into current window by comparing number of characters that need to be replaced with `k`. If number of characters that need to be replaced is greater than `k`, we need to shrink the window from the left until we can replace at most `k` characters.
             while (r - l + 1) - max(count.values()) > k:
                 count[s[l]] -= 1
                 l += 1
