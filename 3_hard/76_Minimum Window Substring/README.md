@@ -36,6 +36,6 @@ The testcases will be generated such that the answer is **unique**.
 - `1 <= m, n <= 105`
 - `s` and `t` consist of uppercase and lowercase English letters.
 
-## **TL;DR**:
+## **Simplified Explanation**:
 
 Build a hash map of chars in `s` and compare against hash mpa of chars in `t`. If we `have` what we `need` then set `res` to the coordinates of the sliding window, and `resLen` to the size of the window. We then pop from the left, moving `l` to the right, checking if we `have` what we `need`, until we find a smaller subset size or end. (see `Custom Example`)
