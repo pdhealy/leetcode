@@ -44,3 +44,5 @@ You must write an algorithm that runs in `O(log n) time`.
 - `nums` is sorted and rotated between `1` and `n` times.
 
 ## **Simplified Explanation**:
+
+Use `l` and `r` pointers to check if array is sorted, and if not, then continually calculate the midpoint between `l` and `r`, comparing which value is bigger/smaller, to move the pointers closer.
