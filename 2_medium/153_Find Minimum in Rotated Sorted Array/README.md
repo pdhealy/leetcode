@@ -45,4 +45,4 @@ You must write an algorithm that runs in `O(log n) time`.
 
 ## **Simplified Explanation**:
 
-Use `l` and `r` pointers to check if array is sorted, and if not, then continually calculate the midpoint between `l` and `r`, comparing which value is bigger/smaller, to move the pointers closer.
+Use `l` and `r` pointers to check if array is sorted, and if not, then continually calculate the midpoint between `l` and `r`, comparing which value is bigger/smaller, to move the pointers closer. If the middle is less than `l`, that means the 'reset' point is somewhere on the left side. Otherwise, it's on the right side.

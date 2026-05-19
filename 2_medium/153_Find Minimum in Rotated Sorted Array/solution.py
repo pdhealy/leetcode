@@ -1,9 +1,8 @@
 from typing import List
 
-
 class Solution:
 
-    # Solution 1: Neetcode
+    # Solution 1: NeetCode
     def findMin2(self, nums: List[int]) -> int:
         res = nums[0]
         l, r = 0, len(nums) - 1
