@@ -1,4 +1,4 @@
-# 26. Reverse Linked List
+# 206. Reverse Linked List
 
 - **Difficulty:** Easy
 - **Categories:** Linked List, Recursion

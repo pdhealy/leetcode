@@ -1,13 +1,9 @@
-# 21: Merge Two Sorted Lists
-
 from solution import Solution
+from solution import ListNode
+
 if __name__ == "__main__":
 
     solution = Solution()
-
-    list1 = ListNode(1, ListNode(2, ListNode(4)))
-    list2 = ListNode(1, ListNode(3, ListNode(4)))
-    merged_list = solution.mergeTwoLists(list1, list2)  # Insert breakpoint here and start debugging
 
     # Function to print the merged linked list
     def print_list(node):
@@ -16,4 +12,16 @@ if __name__ == "__main__":
             node = node.next
         print("None")
 
+    # Example 1:
+
+    list1 = ListNode(1, ListNode(2, ListNode(4)))
+    list2 = ListNode(1, ListNode(3, ListNode(4)))
+    merged_list = solution.mergeTwoLists(list1, list2)
+
+    print_list(merged_list)
+
+    # Example 2:
+    list1 = ListNode()
+    list2 = ListNode()
+    merged_list = solution.mergeTwoLists(list1, list2)
     print_list(merged_list)
