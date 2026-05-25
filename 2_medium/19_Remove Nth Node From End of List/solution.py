@@ -13,7 +13,6 @@ class Solution:
         dummy = ListNode(0, head)
         left = dummy
         right = head
-
         while n > 0 and right: # right n steps ahead of left, so gap between left and right is n nodes
             right = right.next
             n -= 1
