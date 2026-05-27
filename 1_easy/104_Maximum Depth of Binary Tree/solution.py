@@ -9,7 +9,22 @@ class TreeNode:
 
 class Solution:
 
-    # Solution 1 (NeetCode) - using iteration
+    # Solution 1 (Greg Hogg) - using recursion
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+        
+        left = self.maxDepth(root.left)
+        right = self.maxDepth(root.right)
+
+        return 1 + max(left, right)
+    
+        # Time: O(n)
+        # Space: O(n)
+
+
+    # Solution 2 (NeetCode) - using iteration
+    # Note: Code works, but debugging broken
     def maxDepth2(self, root: Optional[TreeNode]) -> int:
         stack = [[root, 1]]
         res = 0
@@ -25,18 +40,7 @@ class Solution:
         return res
 
 
-    # Solution 2 (Greg Hogg) - using recursion
-    def maxDepth(self, root: Optional[TreeNode]) -> int:
-        if not root:
-            return 0
-        
-        left = self.maxDepth(root.left)
-        right = self.maxDepth(root.right)
 
-        return 1 + max(left, right)
-    
-        # Time: O(n)
-        # Space: O(n)
 
 
     # Solution 3 (Greg Hogg) - using recursion, with layer tracking for debugging

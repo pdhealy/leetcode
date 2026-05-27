@@ -37,6 +37,7 @@ Given the `root` of a binary tree, invert the tree, and return *its root*.
 - The number of nodes in the tree is in the range `[0, 100]`.
 - `-100 <= Node.val <= 100`
 
+
 ## **Simplified Explanation**:
 
 Note: Involves various levels of `inception`-style recursion. Useful to diagram progressive solution to keep track of current recursion level. Important to also keep track of which line of code we left-off at in the previous recursion levels for better understanding.
