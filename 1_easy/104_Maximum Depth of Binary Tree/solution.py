@@ -37,3 +37,20 @@ class Solution:
     
         # Time: O(n)
         # Space: O(n)
+
+
+    # Solution 3 (Greg Hogg) - using recursion, with layer tracking for debugging
+    def maxDepth3(self, root: Optional[TreeNode], layer: int = 1) -> int:
+        # Print the current layer for debugging/tracking (custom)
+        print(f"Recursion layer: {layer}, Node value: {getattr(root, 'val', None)}")
+
+        if not root:
+            return 0
+
+        left = self.maxDepth3(root.left, layer + 1)
+        right = self.maxDepth3(root.right, layer + 1)
+
+        return 1 + max(left, right)
+
+        # Time: O(n)
+        # Space: O(n)
