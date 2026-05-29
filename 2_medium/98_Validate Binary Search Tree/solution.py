@@ -12,11 +12,12 @@ class Solution:
         
         def is_valid(node, left, right):
             if not node:
-                return True
+                return True # an empty tree is a valid BST
             
             if node.val <= left or node.val >= right:
                 return False
             
-            return is_valid(node.left, left, node.val) and is_valid(node.right, node.val, right)
+            return (is_valid(node.left, left, node.val) and 
+                    is_valid(node.right, node.val, right))
 
-        return is_valid(root, float('-inf'), float('inf'))
+        return is_valid(root, float('-inf'), float('inf')) # left and right bounds are set to negative and positive infinity, because no limits on the values of the nodes in the BST.

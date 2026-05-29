@@ -41,3 +41,5 @@ A **valid BST** is defined as follows:
 
 
 ## **Simplified Explanation**:
+
+Traverse a nested tree from left to right. Repeatidly compare node to node.left, and node to node.right. If node.left is greater than node, then not valid. If node.right is less that node then also not valid.
