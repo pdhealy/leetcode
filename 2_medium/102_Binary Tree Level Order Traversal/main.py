@@ -20,6 +20,7 @@ if __name__ == "__main__":
     root = TreeNode(1)
     print(f"Example 2: {solution.levelOrder(root)}")
 
+
     # Example 3:
 
     root = None

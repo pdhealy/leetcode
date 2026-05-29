@@ -12,7 +12,7 @@ class Solution:
         cur = root
 
         while cur:
-            if p.val > cur.val and q.val > cur.val: # BST structures are defined by node values: left children are less than the parent, right children are greater.
+            if p.val > cur.val and q.val > cur.val: # BST structures are defined by node values, not node positions: left children are less than the parent, right children are greater.
                 cur = cur.right
             elif p.val < cur.val and q.val < cur.val:
                 cur = cur.left

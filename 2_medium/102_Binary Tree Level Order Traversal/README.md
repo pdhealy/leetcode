@@ -1,8 +1,8 @@
-# X. Name
+# 102. Binary Tree Level Order Traversal
 
 - **Difficulty:** Medium
-- **Categories:** 
-- **Link:** 
+- **Categories:** Tree, Breadth-First Search, Binary Tree
+- **Link:** https://leetcode.com/problems/binary-tree-level-order-traversal
 - **Tutorial:** 
 
 ## **Description:**
@@ -35,3 +35,5 @@ Given the `root` of a binary tree, return *the level order traversal of its node
 
 
 ## **Simplified Explanation**:
+
+Removing and returning current (left-most) node from `q` using popleft(), and then appending new child nodes to `q`, and continually adding the current levels node values to a list, and appending that list to a results list of lists.
