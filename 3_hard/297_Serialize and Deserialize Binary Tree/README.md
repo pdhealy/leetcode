@@ -35,3 +35,7 @@ Design an algorithm to serialize and deserialize a binary tree. There is no rest
 
 
 ## **Simplified Explanation**:
+
+Because dfs is nested inside deserialize, it needs a mutable index that all recursive calls can share and update. Using `self.i` makes that index an instance attribute, so every call to dfs reads and increments the same counter.
+
+If you used just `i`, Python would treat it as a local variable inside dfs once you assign to it, which would break unless you wrote nonlocal i. So `self.i` is a simple way to keep the current position in `vals` across the whole recursive walk. A local `i` would only work if you passed it through return values or used nonlocal.
