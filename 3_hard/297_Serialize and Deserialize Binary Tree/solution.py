@@ -28,20 +28,6 @@ class Codec:
         dfs(root)
         return ",".join(res)
 
-    # Solution 2 (Copilot)
-    def serialize2(self, root: Optional[TreeNode]) -> str:
-        """Encodes a tree to a single string.
-        
-        :type root: TreeNode
-        :rtype: str
-        """
-        def helper(node):
-            if not node:
-                return 'None,'
-            return str(node.val) + ',' + helper(node.left) + helper(node.right)
-        return helper(root)
-
-    # (NeetCode)
     def deserialize(self, data: str) -> Optional[TreeNode]:
         """Decodes your encoded data to tree.
         
@@ -62,7 +48,19 @@ class Codec:
             return node
         return dfs()
 
-    # (Copilot)
+    # Solution 2 (Copilot)
+    def serialize2(self, root: Optional[TreeNode]) -> str:
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        def helper(node):
+            if not node:
+                return 'None,'
+            return str(node.val) + ',' + helper(node.left) + helper(node.right)
+        return helper(root)
+
     def deserialize2(self, data: str) -> Optional[TreeNode]:
         """Decodes your encoded data to tree.
         
